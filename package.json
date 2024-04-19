@@ -1,0 +1,30 @@
+{
+  "name": "dall-e",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@getbrevo/brevo": "^2.0.0-beta.4",
+    "@google-cloud/storage": "^7.9.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "chroma-js": "^2.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "fabric": "^5.3.0",
+    "googleapis": "^134.0.0",
+    "nodemailer": "^6.9.13",
+    "openai": "^4.29.2",
+    "potrace": "^2.1.8",
+    "sharp": "^0.33.3"
+  },
+  "description": ""
+}
