@@ -104,6 +104,8 @@ app.post('/generate-image', async (req, res) => {
 const openai = new OpenAI({});
 
 const oauth2Client = new google.auth.OAuth2(
+  '',
+  '',
   'http://localhost:3000/auth/google/callback'
 );
 
