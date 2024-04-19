@@ -101,13 +101,9 @@ app.post('/generate-image', async (req, res) => {
       .json({ message: 'Failed to generate image', error: error.message });
   }
 });
-const openai = new OpenAI({
-  apiKey: '',
-});
+const openai = new OpenAI({});
 
 const oauth2Client = new google.auth.OAuth2(
-  '',
-  '',
   'http://localhost:3000/auth/google/callback'
 );
 
